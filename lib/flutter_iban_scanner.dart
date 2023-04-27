@@ -270,7 +270,7 @@ class _IBANScannerViewState extends State<IBANScannerView> {
   }
 
   Future _stopLiveFeed() async {
-    await _controller?.stopImageStream();
+    //await _controller?.stopImageStream();
     await _controller?.dispose();
     _controller = null;
   }
